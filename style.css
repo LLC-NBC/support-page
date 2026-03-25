@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Iosevka Charon", monospace;
+  background-color: #ffffff;
+}
+
+.title {
+  text-align: center;
+  font-size: 48px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.support__icon {
+  width: 200px;
+  height: 200px;
+  margin-top: 50px;
+}
+
+.descr__wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 70%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.descr__wrapper p {
+  color: rgb(0, 0, 0);
+  font-size: 18px;
+  margin-bottom: 20px;
+  text-align: center;
+}
